@@ -1,1 +1,16 @@
+Step 1: download git https://git-scm.com/downloads
+Step 2: create user.name, user.email
+  git config --global user.name "ten user"
+  git config --global user.email "email"
+Step 3: Check config
+  git config user.name
+  git config user.email
 
+
+
+1 Số commanline GIT:
+- clone repository: git clone "link repo (HTTPS, SSH,...)"
+- Create new branch 
+ +  Switch về nhánh main : git checkout main
+  + tạo branch : git checkout -b hieu-branch
+- Create new commit (mỗi lần đẩy code lên thì đều tính là 1 commit)
